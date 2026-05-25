@@ -17,7 +17,7 @@ def div(x, y):
 
 def mod(x, y):
     if  y == 0: 
-        raise ValueError("Cannot divide by zero")
+        return None
     return x % y
 
 def abs(x): 
