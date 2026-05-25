@@ -6,7 +6,7 @@ from src import calculator as calc
 @pytest.mark.Integration
 @pytest.mark.April_Release
 def test_add():
-    assert calc.add(2,3) == 5
+    assert calc.add(2,3) == 1
     assert calc.add(-2,3) == 1
     assert calc.add(2,-3) == -1
     assert calc.add(-2,-3) == -5
